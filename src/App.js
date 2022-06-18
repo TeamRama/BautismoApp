@@ -1,5 +1,6 @@
 import './App.css';
-import Navigation from './components/layout/Navigation';
+import Navigation from './components/Layouts/Navigation';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
