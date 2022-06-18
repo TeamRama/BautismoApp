@@ -1,0 +1,112 @@
+/* CSS de la portada */
+.portada-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.40) ;
+   position: relative;
+}
+
+.img-portada {
+        width: 100%;
+     z-index: -1;
+}
+
+
+.portada-textos {
+   display: flex;
+    justify-content: center;  
+    flex-direction: column;
+    position: absolute;
+    padding-left: 3%;
+    top: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen  and (min-width: 1250px ) {
+    .portada-h1 {
+        font-size: 80px;
+        font-family: 'Lora', serif;
+        color: #ffffff;
+
+      }
+      .portada-hr{
+        display: flex;
+        width: 100%;
+        color: white;
+
+      }
+      .portada-h2 {
+        font-size: 80px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+    }
+
+
+@media screen  and (max-width: 1249px ) and (min-width:950px){
+    .portada-h1 {
+        font-size: 60px;
+        font-family: 'Lora', serif;
+        color: #ffffff;
+
+      }
+      .portada-hr{
+        display: flex;
+        width: 100%;
+        color: white;
+
+      }
+      .portada-h2 {
+        font-size: 60px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+    }
+ @media screen  and (max-width: 949px ) and (min-width:700px){
+        .portada-h1 {
+            font-size: 45px;
+            font-family: 'Lora', serif;
+            color: #ffffff;
+    
+          }
+          .portada-hr{
+            display: flex;
+            width: 100%;
+            color: white;
+    
+          }
+          .portada-h2 {
+            font-size: 45px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+        }   
+
+ @media screen  and (max-width: 699px ){
+    .portada-h1 {
+        font-size: 35px;
+        font-family: 'Lora', serif;
+        color: #ffffff;
+
+      }
+      .portada-hr{
+        display: flex;
+        width: 100%;
+        color: white;
+
+      }
+      .portada-h2 {
+        font-size: 25px;
+        font-weight: 900;
+        color: #ffffff;
+    }   
+}
+   
+
+
+
+ 
+
+    
