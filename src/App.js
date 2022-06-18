@@ -1,17 +1,21 @@
 import './App.css';
-import Navigation from './components/Layouts/Navigation';
+import Portada from './components/Views/Home/Portada';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 
 
 
 function App() {
   return (
-    <div className="App">
-    <header>
-    <Navigation/>
-    </header>
-    </div>
+    <BrowserRouter>
+   <main>
+    <Routes>
+    <Route exact path="/" element={<Portada/>} />
+
+    </Routes>
+   </main>
+  </BrowserRouter>
+ 
   );
 }
 
